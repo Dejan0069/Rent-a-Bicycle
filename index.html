@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Starter</title>
+        <meta name="keywords" content="html,css,lekcii">
+        <meta name="description" content="">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <!-- Latest compiled and minified BOOTSTRAP CSS -->
+        <link rel="stylesheet" href="./assets/bootstrap.min.css">
+        <!-- Local CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+
+        <div class="page-header">
+            <div class="container">
+                <h1>Rent a bicycle</h1>
+                <h2>Total: <span id="totalAmount">0.00</span>MKD</h2>
+            </div>
+        </div>
+
+        <div class="page-body">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="[id.jpg]" />
+                            <div class="caption">
+                                <h3>[name]</h3>
+                                <p>[phone]</p>
+                                <p>
+                                    <a href="#" class="btn btn-primary" role="button">Rent this bicycle</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="rent-details">
+            <div class="container">
+                <div>
+                    You rented bicycle from: <span id="rentedFrom">Full name</span>
+                </div>
+                <div>
+                    Time using:
+                    <span id="timeUsing">
+                        <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+                    </span>
+                </div>
+                <div>Amount to pay: <span id="amountToPay">0.00</span>MKD</div>
+                <div>
+                    <br>
+                    <button id="leaveBicycle" class="btn btn-danger">
+                        Leave this bicycle
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+        <script src="./assets/users.js"></script>
+
+        <script src="./main.js"></script>
+    </body>
+</html>

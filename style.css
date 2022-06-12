@@ -1,0 +1,27 @@
+.rent-details {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    min-height: 300px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.35);
+    background-color: white;
+    left: -100%;
+    opacity: 0;
+  
+    /* left: 0;
+    opacity: 1; */
+  }
+  
+  .thumbnail img {
+    height: 120px;
+  }
+  
+  .page-header .container h2 {
+    opacity: 0;
+  }
+  
+  .page-body .row {
+    margin-bottom: 300px;
+  }
